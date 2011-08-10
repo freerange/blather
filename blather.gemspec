@@ -24,11 +24,11 @@ Gem::Specification.new do |s|
   s.add_dependency("nokogiri", [">= 1.4.0"])
   s.add_dependency("niceogiri", [">= 0.0.4"])
   s.add_dependency("minitest", [">= 1.7.1"])
-  s.add_dependency("activesupport", [">= 3.0.7"])
+  s.add_dependency("activesupport", ["~> 3.1.0.rc4"])
 
   s.add_development_dependency("minitest", ["~> 1.7.1"])
   s.add_development_dependency("mocha", ["~> 0.9.12"])
-  s.add_development_dependency("bundler", ["~> 1.0.0"])
+  s.add_development_dependency("bundler", ["~> 1.0"])
   s.add_development_dependency("rcov", ["~> 0.9.9"])
   s.add_development_dependency("yard", ["~> 0.6.1"])
   s.add_development_dependency("bluecloth", ["~> 2.1.0"])
